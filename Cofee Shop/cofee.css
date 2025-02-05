@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Sans";
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+   
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+/* .header button  {
+   
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+ 
+
+.btnOrder  {
+    background-color:black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    
+}
+.btnSign  {
+   
+    padding: 10px 20px;
+    border:1pX solid #A27B5C;
+    font-size: 28px;
+    color:  #A27B5C;
+    cursor: pointer;
+    margin-left: 30px; 
+    background-color: white;
+}
+
+.header h1 span {
+    color:  #A27B5C;
+}
+
+.hero {
+    text-align: center;
+    background-color: #FCF7EF;
+    padding: 50px 10px;
+
+    
+    
+    
+}
+
+.hero img {
+    
+    margin-left: 20px;
+    width: 1150px;
+    height: 400px;
+
+}
+
+.hero h1 {
+    font-size: 50px;
+
+  
+}
+
+.hero h2, h6 {
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 55px;
+}
+.hero h6 {
+    color: gray;
+    font-size: 15px;
+    font-weight: 300px;
+}
+.blog-parent {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-top: 1px solid gray;
+    margin: 30px 100px ;
+}
+.blog-parent p{
+    font-size: 15px;
+    color: gray;
+}
+
+.blog-parent img{
+    width: 270px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+.footer p{
+    font-size: 12px;
+    color: rgb(150, 144, 144);
+
+}
+
